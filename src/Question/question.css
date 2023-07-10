@@ -1,0 +1,33 @@
+.btn-opt{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn-opt button{
+    padding: 10px;
+}
+/* question.css */
+
+.select{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
+@media (max-width: 900px)  {
+    .row{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap:25px;
+    }
+    .col-6{
+        text-align: center;
+        
+    }
+    .btn{
+        padding:10px !important;
+        width: 100%;
+    }
+}

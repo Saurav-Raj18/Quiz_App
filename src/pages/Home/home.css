@@ -1,0 +1,54 @@
+.Home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .setting {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    gap: 2rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .text-area {
+    margin: 0 12px;
+    width: 100%;
+  }
+  
+  .setting-select {
+    width: 100%;
+  }
+  
+  .image-div {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .image-div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (min-width: 780px) {
+    .Home-page {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .setting {
+      width: 45%;
+    }
+  
+    .image-div {
+      max-width: 45%;
+    }
+  }
+  
